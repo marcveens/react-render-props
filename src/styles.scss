@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+}
+
+.m-accordion {
+  padding: 10px;
+  border: 1px solid black;
+
+  &__header {
+    display: flex;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__icon {
+    margin-left: auto;
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+    user-select: none;
+  }
+
+  &__body {
+    padding-top: 20px;
+  }
+}
